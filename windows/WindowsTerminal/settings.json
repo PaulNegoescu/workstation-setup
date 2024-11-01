@@ -1,0 +1,157 @@
+{
+  "$help": "https://aka.ms/terminal-documentation",
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "actions": 
+  [
+      {
+          "command": 
+          {
+              "action": "copy",
+              "singleLine": false
+          },
+          "id": "User.copy.644BA8F2",
+          "keys": "ctrl+c"
+      },
+      {
+          "command": "paste",
+          "id": "User.paste",
+          "keys": "ctrl+v"
+      },
+      {
+          "command": "find",
+          "id": "User.find",
+          "keys": "ctrl+shift+f"
+      },
+      {
+          "command": 
+          {
+              "action": "splitPane",
+              "split": "auto",
+              "splitMode": "duplicate"
+          },
+          "id": "User.splitPane.A6751878",
+          "keys": "alt+shift+d"
+      }
+  ],
+  "copyFormatting": "none",
+  "copyOnSelect": false,
+  "defaultProfile": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+  "newTabMenu": 
+  [
+      {
+          "type": "remainingProfiles"
+      }
+  ],
+  "profiles": 
+  {
+      "defaults": 
+      {
+          "colorScheme": "Monokai Pro (Filter Ristretto)",
+          "font": 
+          {
+              "face": "MesloLGS NF"
+          }
+      },
+      "list": 
+      [
+          {
+              "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+              "hidden": false,
+              "name": "Windows PowerShell"
+          },
+          {
+              "commandline": "%SystemRoot%\\System32\\cmd.exe",
+              "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+              "hidden": false,
+              "name": "Command Prompt"
+          },
+          {
+              "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+              "hidden": false,
+              "name": "Azure Cloud Shell",
+              "source": "Windows.Terminal.Azure"
+          },
+          {
+              "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+              "hidden": false,
+              "name": "Git Bash",
+              "source": "Git"
+          }
+      ]
+  },
+  "schemes": 
+  [
+      {
+          "background": "#000000",
+          "black": "#0C0C0C",
+          "blue": "#0037DA",
+          "brightBlack": "#767676",
+          "brightBlue": "#3B78FF",
+          "brightCyan": "#61D6D6",
+          "brightGreen": "#16C60C",
+          "brightPurple": "#B4009E",
+          "brightRed": "#E74856",
+          "brightWhite": "#F2F2F2",
+          "brightYellow": "#F9F1A5",
+          "cursorColor": "#FFFFFF",
+          "cyan": "#3A96DD",
+          "foreground": "#FFFFFF",
+          "green": "#13A10E",
+          "name": "Color Scheme 13",
+          "purple": "#881798",
+          "red": "#C50F1F",
+          "selectionBackground": "#FFFFFF",
+          "white": "#CCCCCC",
+          "yellow": "#C19C00"
+      },
+      {
+          "background": "#2C2525",
+          "black": "#403838",
+          "blue": "#F38D70",
+          "brightBlack": "#72696A",
+          "brightBlue": "#F38D70",
+          "brightCyan": "#85DACC",
+          "brightGreen": "#ADDA78",
+          "brightPurple": "#A8A9EB",
+          "brightRed": "#FD6883",
+          "brightWhite": "#FFF1F3",
+          "brightYellow": "#F9CC6C",
+          "cursorColor": "#FFF1F3",
+          "cyan": "#85DACC",
+          "foreground": "#FFF1F3",
+          "green": "#ADDA78",
+          "name": "Monokai Pro (Filter Ristretto)",
+          "purple": "#A8A9EB",
+          "red": "#FD6883",
+          "selectionBackground": "#C3B7B8",
+          "white": "#FFF1F3",
+          "yellow": "#F9CC6C"
+      },
+      {
+          "background": "#1D1F21",
+          "black": "#000000",
+          "blue": "#81A2BE",
+          "brightBlack": "#000000",
+          "brightBlue": "#81A2BE",
+          "brightCyan": "#8ABEB7",
+          "brightGreen": "#B5BD68",
+          "brightPurple": "#B294BB",
+          "brightRed": "#CC6666",
+          "brightWhite": "#FFFFFF",
+          "brightYellow": "#F0C674",
+          "cursorColor": "#C5C8C6",
+          "cyan": "#8ABEB7",
+          "foreground": "#C5C8C6",
+          "green": "#B5BD68",
+          "name": "Tomorrow Night",
+          "purple": "#B294BB",
+          "red": "#CC6666",
+          "selectionBackground": "#373B41",
+          "white": "#FFFFFF",
+          "yellow": "#F0C674"
+      }
+  ],
+  "themes": [],
+  "useAcrylicInTabRow": true
+}
