@@ -131,6 +131,9 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#555555"
 source <(fzf --zsh)
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 ```
+
+**Restart your terminal!!!**
+
 ---
 
 ## !STOP! Only Need to Go Here for Details!
