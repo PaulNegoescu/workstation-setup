@@ -1,6 +1,6 @@
 # Automatic VSCode Plugin Installation
 
-Copy Past this to a terminal window (make sure you have the `code` command enabled):
+Copy and paste this to a terminal window (make sure you have the `code` command enabled):
 
 ```sh
 code --install-extension bierner.markdown-mermaid
